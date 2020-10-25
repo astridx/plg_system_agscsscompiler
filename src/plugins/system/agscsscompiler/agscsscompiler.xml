@@ -108,7 +108,7 @@
     </config>
 
 	<updateservers>
-		<server type="extension" name="agscsscompiler">https://raw.githubusercontent.com/astridx/plg_system_agscsscompiler/agscsscompiler.xml</server>
+		<server type="extension" name="agscsscompiler">https://raw.githubusercontent.com/astridx/plg_system_agscsscompiler/master/agscsscompiler_update.xml</server>
 	</updateservers>
 
 </extension>
