@@ -14,7 +14,7 @@
         <maintainer>Astrid Günther</maintainer>
         <maintainerurl>http://www.astrid-guenther.de</maintainerurl>
         <targetplatform name="joomla" version="4.*"/>
-		<php_minimum>7.1</php_minimum>
+		<php_minimum>5.6</php_minimum>
     </update>
     <update>
         <name>agscsscompiler</name>
@@ -30,6 +30,6 @@
         <maintainer>Astrid Günther</maintainer>
         <maintainerurl>http://www.astrid-guenther.de</maintainerurl>
         <targetplatform name="joomla" version="3.*"/>
-		<php_minimum>7.1</php_minimum>
+		<php_minimum>5.6</php_minimum>
     </update>
 </updates>
