@@ -1,0 +1,10 @@
+<changelogs>
+	<changelog>
+		<element>pkg_agscsscompiler</element>
+		<type>package</type>
+		<version>1.0.0</version>
+		<note>
+			<item>Initial Version</item>
+		</note>
+	</changelog>
+</changelogs>
