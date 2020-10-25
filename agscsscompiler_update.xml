@@ -4,7 +4,8 @@
 		<description>This is a plugin for compiling scss files in Joomla 3 and 4</description>
 		<element>agscsscompiler</element>
 		<type>plugin</type>
-		<type>system</type>
+		<folder>system</folder>
+		<client>site<client>
 		<version>0.0.7</version>
 		<changelogurl>https://raw.githubusercontent.com/astridx/plg_system_agscsscompiler/changelog.xml</changelogurl>      
 		<infourl title="agscsscompiler">https://github.com/astridx/plg_system_agscsscompiler/blob/v0.0.7/README.md</infourl>
@@ -21,7 +22,8 @@
 		<description>This is a plugin for compiling scss files in Joomla 3 and 4</description>
 		<element>agscsscompiler</element>
 		<type>plugin</type>
-		<type>system</type>
+		<folder>system</folder>
+		<client>site<client>
 		<version>0.0.7</version>
 		<infourl title="agscsscompiler">https://github.com/astridx/plg_system_agscsscompiler/blob/v0.0.7/README.md</infourl>
 		<downloads>
