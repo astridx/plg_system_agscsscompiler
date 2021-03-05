@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "name": "pkg_system_agscsscompiler",
+      "originalManifestFileName": "pkg_system_agscsscompiler",
+      "substituteManifestFileName": "pkg_system_agscsscompiler",
+      "extensions": [
+        {
+          "name": "plg_system_agscsscompiler",
+          "substitutes": [
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" method="upgrade">
+	<name>pkg_system_agscsscompiler</name>
+	<packagename>pkg_system_agscsscompiler</packagename>
+	<creationDate>DP_DEPLOY_DATE</creationDate>
+	<packager>Astrid Günther</packager>
+	<copyright>(C) Astrid Günther. All rights reserved.</copyright>
+	<packageremail>info@astrid-guenther.de</packageremail>
+	<packagerurl>www.astrid-guenther.de</packagerurl>
+	<author>Astrid Günther</author>
+	<authorEmail>info@astrid-guenther.de</authorEmail>
+	<authorUrl>www.astrid-guenther.de</authorUrl>
+	<version>DP_DEPLOY_VERSION</version>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>PKG_AG_XML_DESCRIPTION</description>
+	<files>
+		<file type="plugin" id="plg_system_agscsscompiler" group="system">pkg_system_agscsscompiler.zip</file>
+	</files>
+
+	<updateservers>
+		<server type="extension" name="agscsscompiler">https://raw.githubusercontent.com/astridx/plg_system_agscsscompiler/master/agscsscompiler_update.xml</server>
+	</updateservers>
+
+	<dlid prefix="dlid=" suffix="" />
+</extension>

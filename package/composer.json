@@ -1,0 +1,13 @@
+{
+    "name": "astrid/pkg_system_agscsscompiler",
+    "require": {
+        "scssphp/scssphp": "^1.3"
+    },
+    "authors": [
+        {
+            "name": "astridx",
+            "email": "info@astrid-guenther.de"
+        }
+    ]
+}
+

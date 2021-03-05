@@ -1,0 +1,12 @@
+{
+  "name": "pkg_system_agscsscompiler",
+  "description": "pkg_system_agscsscompiler: A PHP compiler for SCSS",
+  "repository": {},
+  "license": "See license in license.md",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}
