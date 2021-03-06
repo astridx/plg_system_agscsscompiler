@@ -7,7 +7,7 @@
 
 use Step\Acceptance\Ag;
 
-class AgmapViewCest extends \BasicAGCestClass
+class InstallAgscsscompilerViewCest extends \BasicAGCestClass
 {
 	public function canOpenJoomla(Ag $I)
 	{
@@ -51,12 +51,12 @@ class AgmapViewCest extends \BasicAGCestClass
 
 		$I->wait(5);
 		//$I->fillField(['name' => 'install_directory'], '/home/astrid/git/DPDocker/DPDocker/build/dist/AG_DP_DEPLOY_VERSION.zip');
-		$I->fillField(['name' => 'install_url'], 'http://web-test/joomla4/AG_1_0.zip');
+		$I->fillField(['name' => 'install_url'], 'http://web-test/joomla4/pkg_system_agscsscompiler_1_0.zip');
 		$I->wait(5);
 		$I->click(['id' => 'installbutton_url']);
-		$I->wait(30);
-		$I->waitForText('PKG_AG_XML_DESCRIPTION', 1);
-		//Installation of the package was successful.
+		$I->wait(10);
+		$I->see('PKG_SYSTEM_AGSCSSCOMPILER_XML_DESCRIPTION');
+		//Installation of the package was successful.PKG_SYSTEM_AGSCSSCOMPILER_XML_DESCRIPTION
 
 
 	}

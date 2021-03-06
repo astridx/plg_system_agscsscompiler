@@ -12,9 +12,9 @@
 	<authorUrl>www.astrid-guenther.de</authorUrl>
 	<version>DP_DEPLOY_VERSION</version>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>PKG_AG_XML_DESCRIPTION</description>
+	<description>PKG_SYSTEM_AGSCSSCOMPILER_XML_DESCRIPTION</description>
 	<files>
-		<file type="plugin" id="plg_system_agscsscompiler" group="system">pkg_system_agscsscompiler.zip</file>
+		<file type="plugin" id="plg_system_agscsscompiler" group="system">plg_system_agscsscompiler.zip</file>
 	</files>
 
 	<updateservers>
